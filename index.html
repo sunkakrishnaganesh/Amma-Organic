@@ -264,6 +264,13 @@
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 30px;
         }
+        .product-grid[style*="display: grid"],
+.product-grid:not([style]) {
+    display: grid;
+}
+        .product-grid {
+        display: none;
+        }
         
         .product-card {
             background: white;
@@ -792,11 +799,109 @@
             <p class="section-intro reveal">Handcrafted with organic ingredients and traditional recipes for authentic flavors that bring back childhood memories.</p>
             
             <div class="product-tabs reveal">
-                <button class="tab-btn active" data-tab="veg">Vegetarian</button>
-                <button class="tab-btn" data-tab="nonveg">Non-Vegetarian</button>
+                <button class="tab-btn active" data-tab="pindivantalu">Pindi Vantalu</button>
+                <button class="tab-btn" data-tab="veg">Vegetarian Pickles</button>
+                <button class="tab-btn" data-tab="nonveg">Non-Veg Pickles</button>
+            </div>
+            <!--Here pindi vantalu-->
+            <div class="product-grid" id="pindivantalu-products">
+                <!-- Vadiyalu -->
+                <div class="product-card reveal">
+                    <div class="product-badge">Traditional</div>
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555647/amma%20organic/sakinalu_q3tmtq.jpg" alt="Vadiyalu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Sakinalu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Traditional sun-dried rice vadiyalu, perfect for crispy snacks and curries.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
+                
+                <!-- Appadalu -->
+                <div class="product-card reveal">
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555646/amma%20organic/garelu_o50vom.jpg" alt="Appadalu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Garelu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Crispy rice appadalu, a traditional Telangana snack for special occasions.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
+                
+                <!-- Borugulu -->
+                <div class="product-card reveal">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555646/amma%20organic/arisalu_wt4cba.jpg" alt="Borugulu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Ariselu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Classic puffed rice borugulu, a light and healthy traditional snack.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555646/amma%20organic/laddu_ujtwmh.jpg" alt="Borugulu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Laddu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Classic puffed rice borugulu, a light and healthy traditional snack.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555646/amma%20organic/garjalu_xfgpzn.jpg" alt="Borugulu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Garjalu</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Classic puffed rice borugulu, a light and healthy traditional snack.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
+                <div class="product-card reveal">
+                    <div class="product-badge">Popular</div>
+                    <div class="product-image">
+                        <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745555646/amma%20organic/karapusa_kvimgb.jpg" alt="Borugulu">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Karapusa</h3>
+                        <div class="product-meta">
+                            <span class="product-price">₹399/-</span>
+                            <span class="product-weight">1KG</span>
+                        </div>
+                        <p class="product-desc">Classic puffed rice borugulu, a light and healthy traditional snack.</p>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                    </div>
+                </div>
             </div>
             
-            <div class="product-grid" id="veg-products">
+            <div class="product-grid" id="veg-products" style="display: none;">
                 <!-- Tomato Pickle -->
                 <div class="product-card reveal">
                     <div class="product-badge">Bestseller</div>
@@ -810,7 +915,7 @@
                             <span class="product-weight">1/2 KG</span>
                         </div>
                         <p class="product-desc">Tangy and spicy, made with sun-ripened tomatoes and traditional spices.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -825,7 +930,7 @@
                             <span class="product-weight">1 KG</span>
                         </div>
                         <p class="product-desc">Tangy and spicy, made with sun-ripened tomatoes and traditional spices.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 
@@ -841,7 +946,7 @@
                             <span class="product-weight">1/2 KG</span>
                         </div>
                         <p class="product-desc">A classic South Indian favorite with raw mangoes and aromatic mustard.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -855,7 +960,7 @@
                             <span class="product-weight">1 KG</span>
                         </div>
                         <p class="product-desc">A classic South Indian favorite with raw mangoes and aromatic mustard.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 
@@ -871,7 +976,7 @@
                             <span class="product-weight">1/2 KG</span>
                         </div>
                         <p class="product-desc">Pungent and flavorful, perfect for garlic lovers with health benefits.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -885,7 +990,7 @@
                             <span class="product-weight">1 KG</span>
                         </div>
                         <p class="product-desc">Pungent and flavorful, perfect for garlic lovers with health benefits.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 
@@ -901,7 +1006,7 @@
                             <span class="product-weight">1/2 KG</span>
                         </div>
                         <p class="product-desc">A unique blend of lemon and spices for a refreshing kick.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -915,7 +1020,7 @@
                             <span class="product-weight">1 KG</span>
                         </div>
                         <p class="product-desc">A unique blend of lemon and spices for a refreshing kick.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                  <!--kakarakaya pickle-->
@@ -931,7 +1036,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">"Experience the bold and irresistible taste of our Kakarakaya Pickle – a perfect blend of spice and bitterness that turns every meal into a flavorful delight!"</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -946,7 +1051,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">"Experience the bold and irresistible taste of our Kakarakaya Pickle – a perfect blend of spice and bitterness that turns every meal into a flavorful delight!"</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <!--Mango allam pickle-->
@@ -962,7 +1067,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">"Savor the zesty fusion of raw mango and ginger in our Mango Allam Pickle – a tangy, spicy delight that adds a punch of flavor to every bite!"</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -977,7 +1082,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">"Savor the zesty fusion of raw mango and ginger in our Mango Allam Pickle – a tangy, spicy delight that adds a punch of flavor to every bite!"</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
             </div>
@@ -997,7 +1102,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">Juicy chicken pieces marinated in rich spices for intense flavor.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -1012,7 +1117,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">Juicy chicken pieces marinated in rich spices for intense flavor.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                
@@ -1029,7 +1134,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">Tender boneless chicken in a fiery masala blend.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -1043,7 +1148,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">Tender boneless chicken in a fiery masala blend.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 
@@ -1060,7 +1165,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">Hearty mutton chunks with traditional flavors that last.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -1075,7 +1180,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">Hearty mutton chunks with traditional flavors that last.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 
@@ -1091,7 +1196,7 @@
                             <span class="product-weight"><strong>1/2 KG</strong></span>
                         </div>
                         <p class="product-desc">Succulent boneless mutton in a spicy, aromatic mix.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
                 <div class="product-card reveal">
@@ -1105,7 +1210,7 @@
                             <span class="product-weight"><strong>1KG</strong></span>
                         </div>
                         <p class="product-desc">Succulent boneless mutton in a spicy, aromatic mix.</p>
-                        <a href="https://wa.me/919963641032" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
+                        <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn btn-secondary add-to-cart"><i class="fas fa-shopping-cart"></i> Shop</a>
                     </div>
                 </div>
             </div>
@@ -1173,7 +1278,7 @@
                     <div class="qr-code">
                         <img src="https://res.cloudinary.com/djontsvk9/image/upload/v1745134547/Akruthi%20Saree/URL_QR_Code_d63w8c.png" alt="WhatsApp QR Code">
                     </div>
-                    <a href="https://wa.me/919963641032" class="btn">Chat on WhatsApp</a>
+                    <a href="https://wa.me/919963641032?text=Hi%20Amma%20Organic%20Home%20Foods,%20I%20want%20to%20place%20an%20order" class="btn">Chat on WhatsApp</a>
                 </div>
                 
                 <div class="order-method reveal">
@@ -1239,7 +1344,9 @@ window.addEventListener('scroll', () => {
 
 
     // Tab switching logic
+    // Tab switching logic
     const tabButtons = document.querySelectorAll('.tab-btn');
+    const pindiProducts = document.getElementById('pindivantalu-products');
     const vegProducts = document.getElementById('veg-products');
     const nonVegProducts = document.getElementById('nonveg-products');
 
@@ -1249,11 +1356,15 @@ window.addEventListener('scroll', () => {
             button.classList.add('active');
 
             const selectedTab = button.getAttribute('data-tab');
-            if (selectedTab === 'veg') {
+            pindiProducts.style.display = 'none';
+            vegProducts.style.display = 'none';
+            nonVegProducts.style.display = 'none';
+
+            if (selectedTab === 'pindivantalu') {
+                pindiProducts.style.display = 'grid';
+            } else if (selectedTab === 'veg') {
                 vegProducts.style.display = 'grid';
-                nonVegProducts.style.display = 'none';
             } else {
-                vegProducts.style.display = 'none';
                 nonVegProducts.style.display = 'grid';
             }
         });
